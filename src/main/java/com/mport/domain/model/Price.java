@@ -2,8 +2,7 @@ package com.mport.domain.model;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 

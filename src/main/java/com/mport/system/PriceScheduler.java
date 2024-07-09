@@ -37,7 +37,6 @@ public class PriceScheduler {
             }
         } catch (Exception e) {
             log.error("Error PriceScheduler: {}", e.getMessage());
-            e.printStackTrace();
         }
     }
 }
