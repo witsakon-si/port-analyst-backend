@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS "main"."user";
+DROP TABLE IF EXISTS "main"."users";
 -- auto-generated definition
-create table user
+create table users
 (
     id          bigint not null
         primary key,
