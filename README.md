@@ -20,3 +20,17 @@
       + PrimeNg
       + Deploy on Nginx
     
+### Sonarqube
+```
+docker-compose up -d
+```
+- Goto http://localhost:9000 (first login use admin/admin)
+- Crete local project select maven then run command
+```
+mvn clean verify sonar:sonar  \
+  -Dsonar.projectKey=<project_name>  \
+  -Dsonar.projectName='<project_name>'  \
+  -Dsonar.host.url=http://localhost:9000  \
+  -Dsonar.token=<token>
+```
+- Let's fixing
